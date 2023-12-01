@@ -13,7 +13,7 @@ The libraries include shapes and more complex arrangements to quickly draw diagr
 
 ### Preconfigured diagrams.net editor
 
-Head over to https://www.lasssim.com/diagrams/ to find a button that will redirect you to a preconfigured diagrams.net editor with these styles and settings.
+Go [here](https://app.diagrams.net/?splash=0&libs=general;basic;arrows2&clibs=Uhttps://raw.githubusercontent.com/mbskl2/diagrams.net-templates/main/lib/Lasssim%20Primitives.xml;Uhttps://raw.githubusercontent.com/mbskl2/diagrams.net-templates/main/lib/Lasssim%20Arrangements.xml#) to a preconfigured diagrams.net editor with these styles and settings.
 
 ### Standalone editor
 
@@ -31,11 +31,8 @@ Paste the contents of [styles.json](config/styles.json) into the configuration b
 
 Clone this repository and open the libraries from the `lib/` directory via `File -> Open Library...`
 
-## Contribution
+## Note
 
-* Fork the repository 
-* Make changes to the json files with your favorite editor
-* Make changes to the libraries using the standalone editor (described above)
-* Submit a Pull Request
+* The js code creates a button the redirects you to diagrams.net.
 
 

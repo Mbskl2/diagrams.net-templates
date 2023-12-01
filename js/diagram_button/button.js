@@ -4,13 +4,13 @@
 function diagram_button ({target_id, on_click, open_url, config_template_urls, custom_lib_urls}={}) {
 
   config_template_urls = (typeof config_template_urls !== 'undefined') ? config_template_urls : [
-    "https://raw.githubusercontent.com/lasssim/diagrams.net-templates/main/config/styles.json",
-    "https://raw.githubusercontent.com/lasssim/diagrams.net-templates/main/config/webui.json"
+    "https://raw.githubusercontent.com/mbskl2/diagrams.net-templates/main/config/styles.json",
+    "https://raw.githubusercontent.com/mbskl2/diagrams.net-templates/main/config/webui.json"
   ]
 
   custom_lib_urls = (typeof custom_lib_urls !== 'undefined') ? custom_lib_urls : [
-    "https://raw.githubusercontent.com/lasssim/diagrams.net-templates/main/lib/Lasssim%20Primitives.xml",
-    "https://raw.githubusercontent.com/lasssim/diagrams.net-templates/main/lib/Lasssim%20Arrangements.xml"
+    "https://raw.githubusercontent.com/mbskl2/diagrams.net-templates/main/lib/Lasssim%20Primitives.xml",
+    "https://raw.githubusercontent.com/mbskl2/diagrams.net-templates/main/lib/Lasssim%20Arrangements.xml"
   ];
 
   config_requests = config_template_urls.map((url) => $.getJSON(url));
